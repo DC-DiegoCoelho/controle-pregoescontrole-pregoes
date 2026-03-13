@@ -2,11 +2,15 @@
   "name": "controle-pregoescontrole-pregoes",
   "version": "1.0.0",
   "description": "Sistema para organizar fichas de controle de pregões",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^5.0.1",
+    "express": "^5.2.1"
+  }
 }
