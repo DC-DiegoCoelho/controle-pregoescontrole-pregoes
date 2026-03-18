@@ -1,2 +1,11 @@
+<%- include("partials/menu") %>
 <h1>Página de Pregões</h1>
 <p>Lista de pregões do sistema.</p>
+<a href="/">Voltar para Home</a>
+
+<h2>Novo Pregão</h2>
+
+<form action="/pregoes" method="POST">
+  <input type="text" name="titulo" placeholder="Título do pregão" required>
+  <button type="submit">Salvar</button>
+</form>

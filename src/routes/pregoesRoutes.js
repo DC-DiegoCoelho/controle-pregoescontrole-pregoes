@@ -5,6 +5,11 @@ const pregoesController = require("../controllers/pregoesController");
 
 router.get("/pregoes", pregoesController.listarPregoes);
 
+router.post("/pregoes", (req, res) => {
+  console.log(req.body);
+  res.send("Pregão recebido com sucesso");
+});
+
 module.exports = router;
 
 /* 

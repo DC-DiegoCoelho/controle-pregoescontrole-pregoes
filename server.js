@@ -16,6 +16,7 @@ const express = require ('express'); //Express serve para importar/carregar um m
 const pregoesRoutes = require("./src/routes/pregoesRoutes");
 
 const app = express(); //  PRIMEIRO cria o app
+app.use(express.urlencoded({ extended: true }));
 
                         //Cria a aplicação do servidor. -> “Execute o Express e gere um servidor, guardando em app.”
 
