@@ -1,5 +1,5 @@
 const listarPregoes = (req, res) => {
-  res.send("Página de pregões (Controller)");
+  res.render("pregoes");
 };
 
 module.exports = {
